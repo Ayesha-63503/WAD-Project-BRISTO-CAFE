@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # KapeTann Coffee Shop Website
 
 > Welcome to **KapeTann**, a coffee lover's paradise! 
@@ -19,3 +20,7 @@
 [![kapeTann Login Page](/assets/images/login.PNG)](https://kapetanncoffeeshop.infinityfreeapp.com/)  
 
 [![kapeTann Home Page](/assets/images/BrewVoyage%20Home%20Page.PNG)](https://kapetanncoffeeshop.infinityfreeapp.com/) 
+=======
+# WAD-Project-BRISTO-CAFE
+Bristo Brew Cafe is a modern, responsive website designed for a fictional coffee shop, built to showcase front-end and/or full-stack web development skills. The project focuses on delivering an engaging user experience with a visually appealing layout, smooth navigation, and practical features for a real-world cafe business
+>>>>>>> 781c5a15a1afe4a5d47387351d4f268749f419b0
