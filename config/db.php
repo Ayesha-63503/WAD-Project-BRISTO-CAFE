@@ -1,0 +1,16 @@
+<?php
+
+$host = "localhost:3307";
+$username = "root";
+$password = "";
+$database = "Baresto";  // 👈 change this
+
+// Create connection
+$conn = mysqli_connect($host, $username, $password, $database);
+
+// Check connection
+if (!$conn) {
+    die("Database connection failed: " . mysqli_connect_error());
+}
+
+?>
