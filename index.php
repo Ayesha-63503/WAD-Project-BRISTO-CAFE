@@ -381,7 +381,7 @@
                 <div class="credit">
                     <hr /><br/>
                     <h2>Baresto Brewed Coffee © 2026 | All Rights Reserved.</h2>
-                    <h2>Designed by <span>Bareera</span> | Teravision</h2>
+                    <h2>Designed by <span>Baresto and Co.</span> | Teravision</h2>
                 </div>
             </div>
         </section>
