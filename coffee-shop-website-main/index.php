@@ -89,7 +89,7 @@
                         <div class="col-md-4">
                             <div class="box">
                                 <div class="image">
-                                    <img src="assets/images/biya.jpeg" alt="">
+                                    <img src="assets/images/biya1.jpeg" alt="">
                                 </div>
                                 <div class="content">
                                     <div class="stars">
