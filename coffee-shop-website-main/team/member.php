@@ -5,18 +5,30 @@ $members = [
 
 "bareera" => [
     "name" => "Bareera",
-    "role" => "Project Manager",
+    "role" => "Full Stack Developer/Project Manager",
     "image" => "../assets/images/biyaa.jpeg",
     "about" => "Passionate frontend developer focused on responsive layouts, interactive interfaces and modern web experiences.",
-    "skills" => ["HTML","CSS","JavaScript","Bootstrap","PHP"]
+    "skills" => ["HTML","CSS","JavaScript","Bootstrap","PHP"],
+    "socials" => [
+        "github" => "https://github.com/Bareera-Amjad",
+        "linkedin" => "https://linkedin.com/in/bareera",
+        "instagram" => "https://www.instagram.com/_beethereal_/",
+        "facebook" => "https://facebook.com/bareera"
+    ]
 ],
 
 "muqaddisa" => [
     "name" => "Muqaddisa",
-    "role" => "Frontend Developer",
+    "role" => "frontend Developer",
     "image" => "../assets/images/muqi.jpeg",
     "about" => "Backend developer focused on APIs, authentication systems and scalable database solutions.",
-    "skills" => ["PHP","MySQL","APIs","Authentication"]
+    "skills" => ["PHP","MySQL","APIs","Authentication"],
+    "socials" => [
+        "github" => "https://github.com/muqaddisa",
+        "linkedin" => "https://linkedin.com/in/muqaddisa",
+        "instagram" => "https://instagram.com/muqaddisa._.rashid/",
+        "facebook" => "https://facebook.com/muqaddisa"
+    ]
 ],
 
 "sarah" => [
@@ -24,18 +36,31 @@ $members = [
     "role" => "UI/UX Designer",
     "image" => "../assets/images/sarh.jpeg",
     "about" => "Creative UI/UX designer building clean, modern and engaging digital experiences.",
-    "skills" => ["Figma","UI Design","UX Research"]
+    "skills" => ["Figma","UI Design","UX Research"],
+    "socials" => [
+        "github" => "https://pk.linkedin.com/in/sarah-hamid-ali-25769038a",
+        "linkedin" => "https://linkedin.com/in/sarah",
+        "instagram" => "https://instagram.com/sarah",
+        "facebook" => "https://facebook.com/sarahhamidali"
+    ]
 ],
 
 "ayesha" => [
     "name" => "Ayesha",
-    "role" => "Backend Developer",
+    "role" => " Backend Developer",
     "image" => "../assets/images/aish.jpeg",
     "about" => "Project manager responsible for workflow planning, communication and team coordination.",
-    "skills" => ["Management","Planning","Leadership"]
+    "skills" => ["Management","Planning","Leadership"],
+    "socials" => [
+        "github" => "https://github.com/ayesha",
+        "linkedin" => "https://linkedin.com/in/ayesha",
+        "instagram" => "https://instagram.com/ayesha",
+        "facebook" => ""
+    ]
 ]
 
 ];
+
 
 $member = $members[$name] ?? null;
 ?>
@@ -470,21 +495,22 @@ body{
 
 <div class="buttons">
 
-<a href="mailto:barestobrew@gmail.com" class="primary-btn">
+<a href="#" class="primary-btn">
 Hire Me
 </a>
 
-<a href="#work" class="secondary-btn">
+<a href="#" class="secondary-btn">
 View Work
 </a>
 
 </div>
 
 <div class="socials">
-<i class="fab fa-github"></i>
-<i class="fab fa-linkedin-in"></i>
-<i class="fab fa-instagram"></i>
-<i class="fab fa-facebook-f"></i>
+<?php foreach($member['socials'] as $icon => $link){ ?>
+    <a href="<?php echo $link; ?>" target="_blank">
+        <i class="fab fa-<?php echo $icon; ?>"></i>
+    </a>
+<?php } ?>
 </div>
 
 </div>
@@ -604,29 +630,7 @@ Available for freelance work, creative collaborations and modern website project
 </div>
 
 </section>
-<section id="work" class="section">
-    <h1 class="section-title">My Work</h1>
 
-    <div class="service-grid">
-
-        <div class="service-card">
-            <h2>Portfolio Website</h2>
-            <p>Responsive personal portfolio built with PHP, Bootstrap and animations.</p>
-        </div>
-
-        <div class="service-card">
-            <h2>Dashboard UI</h2>
-            <p>Modern admin dashboard with clean UI and charts integration.</p>
-        </div>
-
-        <div class="service-card">
-            <h2>E-commerce System</h2>
-            <p>Full-stack shopping system with cart, checkout and admin panel.</p>
-        </div>
-
-    </div>
-</section>
-<section id="contact" class="section">
 <?php } else { ?>
 
 <h1 style="text-align:center;margin-top:100px;">
