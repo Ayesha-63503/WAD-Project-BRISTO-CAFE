@@ -1,0 +1,83 @@
+/* GENERAL PAGE STYLING */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f2ee;
+    margin: 0;
+    padding: 0;
+}
+
+/* CONTAINER */
+.page-container {
+    max-width: 900px;
+    margin: 60px auto;
+    background: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+/* HEADINGS */
+h1 {
+    text-align: center;
+    color: #3e2723;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #6d4c41;
+}
+
+/* TEXT */
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* FORM */
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+form textarea {
+    resize: none;
+}
+
+/* BUTTON */
+button {
+    background: #3e2723;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #5d4037;
+}
+
+/* LIST */
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* BACK BUTTON */
+.back-btn {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #3e2723;
+    font-weight: bold;
+}
